@@ -1,10 +1,8 @@
-﻿#nullable enable 
-
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PW.LaunchPad.AppRegistration
+namespace PW.LaunchPad
 {
   /// <summary>
   /// Management of application registrations for LaunchPad.

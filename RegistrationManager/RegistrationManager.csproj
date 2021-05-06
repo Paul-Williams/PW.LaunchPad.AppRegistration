@@ -1,10 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0-windows7.0</TargetFramework>
-    <AssemblyName>LaunchPad.AppRegistration</AssemblyName>
-    <RootNamespace>PW.LaunchPad.AppRegistration</RootNamespace>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AssemblyName>PW.LaunchPad.AppRegistration</AssemblyName>
+    <RootNamespace>PW.LaunchPad</RootNamespace>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>PW.LaunchPad.AppRegistration</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Paul Williams</Authors>
+    <Company>PWDevS</Company>
+    <PackageDescription>Application registration manager</PackageDescription>
+    <RepositoryUrl>https://github.com/Paul-Williams/PW.LaunchPad.AppRegistration</RepositoryUrl>
+    <PackageReleaseNotes>No changes -- Just a deployment test.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Paul-Williams/PW.LaunchPad.AppRegistration</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
